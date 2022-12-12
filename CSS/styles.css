@@ -3,14 +3,14 @@ body{
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    margin: 20px 40px;
+    margin: 40px 90px;
 
 }
 
 .flex-head{
     display: flex;
     font-size: 10px;
-    gap: 100px;
+    gap: 5px;
 }
 
 
@@ -39,6 +39,33 @@ body{
 
 }
 
+.features {
+    display: flex;
+}
+
+.company{
+    display: flex;
+}
+
+.features img{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.company img{
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+
+.left p3{
+     border: 2px hsl(0, 0%, 41%) solid;
+     border-radius: 15px;
+     height: 40px;
+     width: 100px;
+     text-align: center;
+     line-height: 40px;
+}
+
 .left{
     flex: 1;
     display: flex;
@@ -57,9 +84,9 @@ body{
 
 .flex-bottom{
     display: flex;
-    gap: 200px;
+    gap: 50px;
     justify-content: space-evenly;
-    padding: 30px 60px;
+    margin: 10px 60px;
 }
 
 
@@ -77,7 +104,7 @@ body{
     letter-spacing: -3px;
     color: hsl(0, 0%, 8%);
     
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
 
 }
@@ -111,4 +138,11 @@ line-height: 22px;
     width: 400px;
     height: auto;
     flex: 1;
+    padding-right: 60px;
+}
+
+.things{
+    display: flex;
+    gap: 40px;
+    padding-top: 60px;
 }
